@@ -2,7 +2,8 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="none">
 <RelativeLayout
     android:background="#EEE6CF"
     android:layout_width="match_parent"
@@ -29,7 +30,8 @@
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:scrollbars="none">
 
 
     <LinearLayout
@@ -180,7 +182,8 @@
 
 <HorizontalScrollView
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -458,7 +461,8 @@
 <HorizontalScrollView
     android:layout_below="@id/l3"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
 <LinearLayout
     android:background="#FDFEFE"
     android:id="@+id/l4"
